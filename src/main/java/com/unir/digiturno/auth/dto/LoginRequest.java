@@ -16,5 +16,5 @@ public class LoginRequest {
     public void setContrasena(String contrasena) {
         this.contrasena = contrasena;
     }
-    
+
 }
