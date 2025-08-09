@@ -59,3 +59,4 @@ public ResponseEntity<ApiResponse<?>> login(@RequestBody LoginRequest request) {
     return ResponseEntity.ok(new ApiResponse<>(true, "Inicio de sesión exitoso", 2000, response));
 }
 }
+
