@@ -9,5 +9,4 @@ import com.unir.digiturno.auth.models.entities.User;
 public interface UserRepository extends CrudRepository<User, Long>{
     
     Optional<User> findByCorreo(String correo);
-
 }
