@@ -20,5 +20,5 @@ jobs:
             cd /home/ec2-user/digiturno/auth
             git pull origin main
             cd /home/ec2-user/digiturno
-            docker-compose down
+            docker-compose stop auth-service
             docker-compose up -d --build auth-service
